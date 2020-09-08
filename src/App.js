@@ -38,7 +38,7 @@ function App() {
     e.preventDefault()
     name ?
       dispatch({ type: ACTIONS.ADD_TODO, payload: { name: name }})
-    : 
+    :
       alert('No Todo text entered')
     setName('')
   }
